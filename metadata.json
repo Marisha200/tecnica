@@ -1,0 +1,6 @@
+{
+  "name": "Más Allá de la Técnica",
+  "description": "Encuentro de profundización para terapeutas, maestros de Reiki y facilitadores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
