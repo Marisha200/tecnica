@@ -16,7 +16,7 @@ import {
 export default function App() {
   // Target date is July 10, 2026, 23:59:59 GMT-3 (Buenos Aires).
   // In UTC this is July 11, 2026, 03:00:00 Z.
-  const targetDate = new Date("2026-07-11T03:00:00Z");
+  const targetDate = new Date("2026-07-12T03:00:00Z");
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -467,17 +467,7 @@ export default function App() {
               </button>
             </div>
 
-            <p className="text-xs text-stone-400 font-sans tracking-wide">
-              Contacto directo por WhatsApp o llamada al celular:{' '}
-              <a 
-                href="https://wa.me/5491149801624" 
-                target="_blank" 
-                rel="noreferrer" 
-                className="font-bold text-stone-600 hover:text-zen-sage transition-colors underline"
-              >
-                +54 9 11 4980-1624
-              </a>
-            </p>
+            
           </div>
         </div>
       </section>
