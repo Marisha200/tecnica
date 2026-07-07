@@ -13,6 +13,9 @@ import {
   ExternalLink
 } from 'lucide-react';
 
+import japandiInterior from './assets/images/japandi_zen_interior_1783347825070.jpg';
+import japandiDetail from './assets/images/japandi_zen_detail_1783347839165.jpg';
+
 export default function App() {
   // Target date is July 10, 2026, 23:59:59 GMT-3 (Buenos Aires).
   // In UTC this is July 11, 2026, 03:00:00 Z.
@@ -117,7 +120,7 @@ export default function App() {
       <header id="hero-section" className="relative w-full py-20 lg:py-32 px-6 md:px-16 flex flex-col items-center justify-center text-center overflow-hidden border-b border-zen-sand/40">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/src/assets/images/japandi_zen_interior_1783347825070.jpg" 
+            src={japandiInterior} 
             alt="Serene Zen Japandi Interior" 
             className="w-full h-full object-cover opacity-20 filter contrast-105 transition-all duration-750"
             referrerPolicy="no-referrer"
@@ -241,7 +244,7 @@ export default function App() {
           <div className="absolute -inset-3 bg-zen-sand/20 rounded-xl -rotate-1.5 z-0"></div>
           <div className="relative z-10 bg-white p-4 rounded-xl shadow-md border border-zen-sand">
             <img 
-              src="/src/assets/images/japandi_zen_detail_1783347839165.jpg" 
+              src={japandiDetail} 
               alt="Cozy Japandi Zen Leaf Detail" 
               className="w-full h-auto rounded-lg object-cover aspect-square transition-all duration-500"
               referrerPolicy="no-referrer"
